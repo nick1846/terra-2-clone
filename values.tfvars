@@ -1,4 +1,4 @@
-aws_region = "us-east-1"
+aws_region = "us-east-2"
 
 #my-key-values
 my_key_name  = "ec2-user-publickey"
@@ -33,10 +33,10 @@ sg_egress_rules  = ["all-all"]
 
 #my-ec2-values
 
-my_ec2_name = "awx-server"
+my_ec2_name = "awx-client"
 ec2_count   = 1
-ec2_type    = "t2.large" 
-ec2_tags    = { Name = "awx-server"}
+ec2_type    = "t2.micro" 
+ec2_tags    = { Name = "awx-client"}
 
 
 #my-data-source-values
