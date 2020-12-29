@@ -1,4 +1,4 @@
-aws_region = "us-east-2"
+aws_region = "us-east-1"
 
 #my-key-values
 my_key_name  = "ec2-user-publickey"
