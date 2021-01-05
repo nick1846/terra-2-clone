@@ -33,10 +33,10 @@ sg_egress_rules  = ["all-all"]
 
 #my-ec2-values
 
-my_ec2_name = "awx-client"
+my_ec2_name = "jenkins-server"
 ec2_count   = 1
 ec2_type    = "t2.micro" 
-ec2_tags    = { Name = "awx-client"}
+ec2_tags    = { Name = "jenkins-server"}
 
 
 #my-data-source-values
