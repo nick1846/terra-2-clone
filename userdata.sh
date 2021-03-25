@@ -2,7 +2,7 @@
 sudo yum update -y
 sudo amazon-linux-extras install epel -y
 sudo yum install git -y
-sudo amazon-linux-extras install docker
+sudo amazon-linux-extras install docker -y
 sudo service docker start
 sudo service docker enable
 sudo usermod -a -G docker ec2-user
